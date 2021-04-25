@@ -25,10 +25,16 @@
            <option value="California pizza">California pizza</option>
            <option value="Sicilian pizza">Sicilian pizza</option>
        </select><br>
+       <input name="price" type="text" placeholder="price">
        <label>QTY</label>
-       <input type="number" type="1" value="1" min="1"><br>
+       <input qty="number" type="1" value="1" min="1"><br>
         <button type="submit">Add to cart</button>
     </form>
+    <button>View Order Summary</button>
+    <table>
+        <th>pizza</th><th>size</th><th>qty</th><th>price</th>
+    </table>
+    <p id="order summary"></p>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
