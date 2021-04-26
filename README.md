@@ -15,3 +15,5 @@ Wonder price Kitchen is a new restaurant found in Nairobi CBD along Kimathi stre
 2.Displays an error message if any of the  input is left Blank
 * INPUT:""
 * OUTPUT:"Display error message"
+# Installation and Setup
+To view the app, open the Github Pages link provided below on the README. Here is a run through of how to set up the application
