@@ -1,13 +1,15 @@
-var total,crust_cost,size_cost;
-function getCostPerSize() {
+ //User Interface logic
+ 
+ var total,crust_cost,size_cost;
+function getCostPerSize() {//get cost of pizza based on size
     var selectedSize = document.getElementById("size").value;
     return parseInt(selectedSize);
 }
-function getCostPerCrust() {
+function getCostPerCrust() {//get cost of per crust selected
     var selectedCrust = document.getElementById("crust").value;
     return parseInt(selectedCrust);
 }
-function getQuantity() {
+function getQuantity() {//get price based on the number of items
     var selectedNumber = document.getElementById("pizzaquantity").value;
     return parseInt(selectedNumber);
 }
@@ -23,7 +25,8 @@ function toppingss() {
     }
     return parseInt(mushroom);
 }
-function calctotalPrice(e) {
+//Business logic
+function calctotalPrice(e) {//calculate total order price
     event.preventDefault();
     var totalPrice = (getCostPerSize() + getCostPerCrust() + toppingss()) * (getQuantity());
         console.log(totalPrice);
