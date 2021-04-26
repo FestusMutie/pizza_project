@@ -20,3 +20,5 @@ To view the app, open the Github Pages link provided below on the README. Here i
 Step 1 : Clone this repository using git clone https://github.com/FestusMutie/pizza_project.git or download the project zip files.
 Step 2 : The repository, if downloaded as a .zip file will need to be extracted on your preferred location and opened
 Step 3 : Open the index.html file to view the application on your preferred web browser
+# Known Bugs
+None
