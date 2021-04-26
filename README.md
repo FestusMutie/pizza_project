@@ -27,3 +27,6 @@ None
 * CSS
 * JAVASCRIPT
 * GIT
+# Support and Contact details
+Provide feedback or raise any concerns via this email 
+* mutiefestus@gmail.com
