@@ -22,3 +22,8 @@ Step 2 : The repository, if downloaded as a .zip file will need to be extracted 
 Step 3 : Open the index.html file to view the application on your preferred web browser
 # Known Bugs
 None
+# Technologies used
+* HTML
+* CSS
+* JAVASCRIPT
+* GIT
